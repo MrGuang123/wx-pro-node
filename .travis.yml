@@ -11,4 +11,6 @@ addons:
   ssh_known_hosts: 140.143.191.101
 before_install:
 - openssl aes-256-cbc -K $encrypted_fc32dcfc7826_key -iv $encrypted_fc32dcfc7826_iv
-  -in id_rsa.enc -out ~\/.ssh/id_rsa -d
+  -in huahua-rsa.enc -out ~\/.ssh/huahua-rsa -d
+- chmod 600 ~/.ssh/id_rsa
+- eval $(ssh-agent)
