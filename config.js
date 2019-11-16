@@ -7,6 +7,8 @@ const db = {
   password: 'rootpwd'
 }
 
+let test = 'test'
+
 module.exports = {
   db,
   appKey,
