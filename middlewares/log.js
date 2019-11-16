@@ -11,6 +11,10 @@ log4js.configure({
       filename: 'logs/pp.log',
       // 按照大小分割日志
       maxLogSize: 10485760,
+      // 按照时间分割日志，间隔为天
+      // filename: 'logs/task',
+      // pattern: '-yyyy-MM-dd.log',
+      // alwaysIncludePattern: true,
       // 保留3个备份文件
       backups: 3,
       // 压缩备份文件

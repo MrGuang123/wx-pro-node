@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "mail-list-service",
+      "script": "./app.js",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "watch": true,
+      "ignore_watch": [
+        "uploads"
+      ],
+      "max_memory_restart": "500M"
+    }
+  ]
+}
