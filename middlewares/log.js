@@ -40,6 +40,7 @@ log4js.configure({
 
 // 线上采用默认日志
 let logger = log4js.getLogger()
+
 // 开发环境使用dev的日志配置
 if (env !== 'production') {
   logger = log4js.getLogger('dev')
