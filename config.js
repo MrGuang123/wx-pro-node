@@ -8,7 +8,6 @@ const db = {
 }
 
 let test = 'test'
-let test1 = 'test'
 
 module.exports = {
   db,
