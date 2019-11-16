@@ -7,7 +7,8 @@ const db = {
   password: 'rootpwd'
 }
 
-// let test = 'test'
+let test = 'test'
+let test1 = 'test'
 
 module.exports = {
   db,
