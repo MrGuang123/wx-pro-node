@@ -1,3 +1,4 @@
+![](https://www.travis-ci.org/MrGuang123/wx-pro-node.svg?branch=master)
 ### 破TravisCI折磨死我了
 1. 使用免密登录服务器，Travis帮你加密：travis encrypt-file ~/.ssh/***-rsa --add
 2. 使用这个命令之前你需要有一个.travis.yml配置文件,然后会给你添加一个类似以下这样的命令

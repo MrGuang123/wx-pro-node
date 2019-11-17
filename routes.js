@@ -39,6 +39,17 @@ function getPageParams(ctx) {
 }
 
 /**
+ * 测试接口
+ */
+router.get('/test', async ctx => {
+  ctx.body = {
+    status: 0,
+    data: '这是一条测试数据'
+  }
+})
+
+
+/**
  * 小程序接口部分
  */
 

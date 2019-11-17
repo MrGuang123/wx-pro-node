@@ -18,7 +18,7 @@ open()
 app.use(logger)
 
 // 设置cors跨域
-app.use(cors({
+app.use(Cors({
   origin: '*'
 }))
 

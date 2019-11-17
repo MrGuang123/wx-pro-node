@@ -57,7 +57,7 @@ module.exports = async function (ctx, next) {
   ctx.logger.info(JSON.stringify({
     url: ctx.url,
     query: ctx.query,
-    headers: ctx.request, headers,
+    headers: ctx.request.headers,
     ua: ctx.userAgent,
     time: Date.now()
   }))
